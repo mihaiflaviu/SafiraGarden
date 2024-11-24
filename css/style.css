@@ -569,7 +569,7 @@ h3 {
 	right: 0;
 	width: 100%;
 	top: 0;
-	z-index: 9;
+	z-index: 10;
 	padding-top: 28px
 }
 
@@ -819,7 +819,7 @@ h3 {
 	-o-transition: .3s;
 	transition: .3s;
 	display: block;
-	color: #000
+	color: #000000
 }
 
 .header-area .main-header-area .main-menu ul li .submenu li a::before {
@@ -858,7 +858,7 @@ h3 {
 	-webkit-transition: transform 500ms ease, background 500ms ease;
 	box-shadow: 0px 3px 16px 0px rgba(0, 0, 0, 0.1);
 	padding: 10px 150px;
-	background: #000
+	background: #1B3A4B /*culoare-sus*/
 }
 
 @media (max-width: 767px) {
@@ -1690,7 +1690,7 @@ h3 {
 }
 
 .footer {
-	background: #000
+	background: #1B3A4B /* culoare-jos*/
 }
 
 .footer .footer_top {
@@ -4702,4 +4702,25 @@ h6 {
 	left: 0;
 	top: 0;
 	position: absolute;
+}
+.single_instagram {
+    position: relative;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.4); /* Overlay semi-transparent */
+}
+
+.custom-instagram-icon {
+    width: 150px; /* Dimensiunea faviconului */
+    height: 150px;
+    object-fit: contain;
 }
